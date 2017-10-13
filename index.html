@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-  <title>Metodos Numericos en Ingenieria</title>
+  <title>MNI-APP</title>
   <link rel="shortcut icon" href="static/logo.jpg" />
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"/> 
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="lib/css/bootstrap.css"/>
   <link rel="stylesheet" href="lib/css/materialadmin.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-  <link rel="stylesheet" href="lib/css/framework7.material.css"/>
   <link rel="stylesheet" href="lib/css/boostbox.css"/> 
   <link rel="stylesheet" href="css/app.css"/>
 </head>
@@ -21,7 +20,15 @@
  <!-- Status bar overlay for full screen mode (PhoneGap) -->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
-    <div class="panel-overlay"></div>
+    <div class="panel-overlay">
+      
+      <div class="panel panel-left panel-reveal">
+        <div class="content-block backgroud_SidePanel">
+          <p>Left Panel content here</p>
+        </div>
+      </div>
+
+    </div>
     <!-- Left panel with reveal effect-->
     <div class="panel panel-left panel-reveal">
     </div>
@@ -30,22 +37,22 @@
       <!-- Your main view, should have "view-main" class -->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar body-dark suBarNB">
+        <div class="navbar">
             <div class="navbar-inner">
 
-              <div class="buttons-row width100 navBar_font_style paddins_navBar">
-                  <a href="#" id="nav_home" class="button tab-link active vinos body-dark default subheading left_bordernone home border_radius_nav_buttons">
-                    Home
-                  </a>
-                  
-              </div>              
-             
-              
-              <div class="subnav">
-              
-              </div>
+             <div class="left">
+                <a href="#" class="link open-panel">
+                    <i class="icon icon-bars"></i>
+                </a>
             </div>
+            <div class="center">MNI-APP</div>
 
+            <div class="right">
+                
+            </div>
+              
+             
+            </div>
         </div>
         
         <br/>

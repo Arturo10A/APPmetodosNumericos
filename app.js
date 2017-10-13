@@ -16,7 +16,6 @@ define('app', ['js/router'], function(Router) {
 		pushState: true,
 		pushStateSeparator:'#',
 		pushStateOnLoad:true,
-		material: false,
 		modalTitle: 'Wolfram',
 		animateNavBackIcon: true
 	});
