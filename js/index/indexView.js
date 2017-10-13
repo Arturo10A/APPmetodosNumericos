@@ -5,7 +5,7 @@ define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,te
 		$$('.index-content').html(template({}));
 		bindEvents(params.bindings);
 		var app = params.app;
-		var methods = params.methods
+		var methods = params.methods;
 
 	}
 
