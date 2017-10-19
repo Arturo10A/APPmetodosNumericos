@@ -1,0 +1,21 @@
+*{
+    font-family: 'Noto Sans', Quicksand;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.side_margin{
+	padding: 0px 20px;
+}
+
+.backgroud_SidePanel{
+	background-color: #2a2a2a;
+}
+
+.iframe_Size{
+	width: 100%;
+    height: 500px;
+}
+
