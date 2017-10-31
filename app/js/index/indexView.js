@@ -6,7 +6,8 @@ define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,te
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-
+		$("#title_seccion").html("Equipo");
+		
 	}
 
 	function bindEvents(bindings) {

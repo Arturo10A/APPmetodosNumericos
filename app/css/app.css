@@ -2,6 +2,19 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.alines_list_block{
+	margin: 0px !important;
+
+}
+
+.full_width{
+	width: 100% !important;
+}
+
+.side_panle_color{
+	background-color: #20252b;
+}
+
 .justify{
 	text-align: justify;
 }

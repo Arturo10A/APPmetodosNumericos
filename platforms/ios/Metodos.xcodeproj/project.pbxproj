@@ -338,6 +338,7 @@
 				INFOPLIST_FILE = "Metodos/Metodos-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturo.metodos;
 				PRODUCT_NAME = Metodos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -361,6 +362,7 @@
 				INFOPLIST_FILE = "Metodos/Metodos-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturo.metodos;
 				PRODUCT_NAME = Metodos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
