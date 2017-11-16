@@ -2,6 +2,14 @@
     font-family: 'Noto Sans', Quicksand;
 }
 
+.width100{
+	width: 100%;
+}
+
+.no_list_style{
+	list-style-type: none;
+}
+
 .alines_list_block{
 	margin: 0px !important;
 

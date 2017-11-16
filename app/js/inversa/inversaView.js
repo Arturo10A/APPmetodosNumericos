@@ -1,13 +1,13 @@
-define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,template) {
+define(['js/inversa/inversaModel','hbs!js/inversa/templates/inversa'], function(inversa,template) {
 	var $$ = Framework7.$;
 	function render(params) {
-		console.log('Index View Render');
-		$$('.index-content').html(template({}));
+		console.log('inversa View Render');
+		$$('.inversa-page').html(template({}));
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("Equipo");
-		
+		$("#title_seccion").html("inversa");
+
 	}
 
 	function bindEvents(bindings) {

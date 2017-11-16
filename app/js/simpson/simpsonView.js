@@ -1,13 +1,13 @@
-define(['js/index/indexModel','hbs!js/index/templates/index'], function(Index,template) {
+define(['js/simpson/simpsonModel','hbs!js/simpson/templates/simpson'], function(simpson,template) {
 	var $$ = Framework7.$;
 	function render(params) {
-		console.log('Index View Render');
-		$$('.index-content').html(template({}));
+		console.log('simpson View Render');
+		$$('.simpson-page').html(template({}));
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("Equipo");
-		
+		$("#title_seccion").html("Trapecio Multiple");
+
 	}
 
 	function bindEvents(bindings) {
