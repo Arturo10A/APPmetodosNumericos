@@ -4,7 +4,34 @@ define(["app","js/bairstow/bairstowView", "js/bairstow/bairstowModel"], function
 		element: '.demo1',
 		event: 'click',
 		handler: demo1,
+	},
+	{
+		element: '.openAbout',
+		event: 'click',
+		handler: openAbout,
+	},
+	{
+		element: '.info',
+		event: 'click',
+		handler: info,
+	},
+	{
+		element: '.tab',
+		event: 'click',
+		handler: tab,
 	}];	
+
+	function info(){
+		app.f7.popup('.popup-info');
+	}
+
+	function tab(){
+		app.f7.popup('.popup-tab');
+	}
+
+	function openAbout(){
+		app.f7.popup('.popup-about');
+	}
 
 	function demo1(){
 		app.f7.alert('You choose demo 1');
