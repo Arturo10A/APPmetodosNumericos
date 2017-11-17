@@ -1,45 +1,83 @@
-<div>
-	<h1>Bairstow</h1>
+<div class="page-content infinite-scroll">
+
+	<div class="side_margin">
+
+		<div class="row">
+			<div class="tablet-90 col-90">
+				<p class="justify">
+					Es un algoritmo eficiente de búsqueda de las raíces de un polinomio real de grado arbitrario. Es un método iterativo, basado en el método de Müller y de Newton Raphson. Dado un polinomio <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b594bf73ffc4cc23adfe92256a54970888fa456c" alt="{\displaystyle \ f_{n}(x)}"></span> se encuentran dos factores, un polinomio cuadrático
+					<span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cb81e77be57cd4d1555bc67a2499bdc2e3ff10b7" alt="{\displaystyle \ f_{2}(x)=x^{2}-rx-s}"></span> y <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/66cac233126700798fd0e72bcd58b96d3025f3d8" alt="{\displaystyle \ f_{n-2}(x)}"></span>. El procedimiento general para el método de Bairstow es el siguiente. Dado:
+					</br></br>
+					<span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b594bf73ffc4cc23adfe92256a54970888fa456c" alt="{\displaystyle \ f_{n}(x)}"></span> y <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ef0b21ca0bfa0a1465da0a823dd88b19c3e7741a" alt="{\displaystyle \ r_{0}}"></span> y <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cc99265b944b587ff795f9209800a05a0f4a28e3" alt="{\displaystyle \ s_{0}}"></span>
+				</p>
+
+				<ol>
+						<li>
+							Utilizando el método de Newton Raphson se calcula:</br>
+							<span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cb81e77be57cd4d1555bc67a2499bdc2e3ff10b7" alt="{\displaystyle \ f_{2}(x)=x^{2}-rx-s}"></span> y <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/66cac233126700798fd0e72bcd58b96d3025f3d8" alt="{\displaystyle \ f_{n-2}(x)}"></span>,
+							 tal que, el residuo de <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/121ef1a78f8451f9ec73087d40d74912c8c4e2ab" alt="{\displaystyle \,f_{n}(x)/f_{2}(x),}"></span> sea igual a cero.
+						</li>
+						<li>
+							Se determinan la raíces <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e1b9dc12184a944bcfc9ac73d1dfdec08f93ebca" alt="{\displaystyle \ f_{2}(x)}"></span>, utilizando la fórmula general.
+						</li>
+						<li>
+							Se calcula <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/adb0fcb7f95d0e4647da495c064189f5302ebc71" alt="{\displaystyle \ f_{n-2}(x)=f_{n}(x)/f_{2}(x)}"></span>
+						</li>
+						<li>
+							Se hace <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6300fd8d84d89fa076fb24843646ad1002258e24" alt="{\displaystyle \ f_{n}(x):=f_{n-2}(x)}"></span>
+						</li>
+						<li>
+							Si el grado del polinomio es mayor que tres regresamos al paso 2; en caso contrario, terminamos.
+						</li>
+				</ol>
+
+				<!--Contenido fuera de page content-->
+				<div class="popup popup-about">
+					<div class="content-block">
+						<p>About</p>
+						<p><a href="#" class="close-popup">X</a></p>
+						<iframe src="https://www.wolframcloud.com/objects/8b7813cc-d3a5-4b6c-a1da-c0cab5fc7c42" class="iframe_modal"></iframe>
+					</div>
+				</div>
+
+				<div class="popup popup-info">
+					<div class="content-block">
+						<p>INFO</p>
+						<p><a href="#" class="close-popup">X</a></p>
+						<p>Lorem ipsum dolor ...</p>
+					</div>
+				</div>
+
+				<div class="popup popup-tab">
+					<div class="content-block">
+						<div class="row">
+							<div class="tablet-80 col-70"><h1>TAB</h1></div>
+								<div class="tablet-20 com-30">
+								<p><a href="#" class="close-popup"><h3>x</h3></a></p>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor ...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div class="content-block">
-	    <!-- Buttons row as tabs controller -->
-	    <div class="buttons-row">
-	      <!-- Link to 1st tab, active -->
-	      <a href="#tab1" class="tab-link button openAbout">Tab 1</a>
-	      <!-- Link to 2nd tab -->
-	      <a href="#tab2" class="tab-link button info">Tab 2</a>
-	      <!-- Link to 3rd tab -->
-	      <a href="#tab3" class="tab-link button tab">Tab 3</a>
-	    </div>
+	<!-- Buttons row as tabs controller -->
+	<div class="row">
+		<div class="col-33"></div>
+			<div class="col-33">
+			<!--Link to 1st tab, active -->
+				<ul class="no_list_style">
+					<li><a href="#tab1" class="tab-link button openAbout">Tab 1</a></li></br>
+					<!-- Link to 2nd tab -->
+					<li><a href="#tab2" class="tab-link button info">Tab 2</a></li></br>
+					<!-- Link to 3rd tab -->
+					<li><a href="#tab3" class="tab-link button tab">Tab 3</a></li>
+				</ul>
+			</div>
+			<div class="col-33"></div>
+		</div>
 	</div>
-</div>
-
-
-<!--Contenido fuera de page content-->
-<div class="popup popup-about">
-    <div class="content-block">
-    	<p>About</p>
-    	<p><a href="#" class="close-popup">X</a></p>
-    	<iframe src="https://www.wolframcloud.com/objects/8b7813cc-d3a5-4b6c-a1da-c0cab5fc7c42" class="iframe_modal"></iframe>
-    </div>
-</div>
-
-<div class="popup popup-info">
-    <div class="content-block">
-    	<p>INFO</p>
-    	<p><a href="#" class="close-popup">X</a></p>
-    	<p>Lorem ipsum dolor ...</p>
-    </div>
-</div>
-
-<div class="popup popup-tab">
-    <div class="content-block">
-    	<div class="row">
-    		<div class="tablet-80 col-70"><h1>TAB</h1></div>
-    		<div class="tablet-20 com-30">
-    			<p><a href="#" class="close-popup"><h3>x</h3></a></p>
-    		</div>
-    	</div>
-    	<p>Lorem ipsum dolor ...</p>
-    </div>
 </div>
