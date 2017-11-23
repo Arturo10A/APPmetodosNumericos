@@ -36,7 +36,9 @@
     <!--Bairstow en orde acendente-->
     <allow-navigation href="https://www.wolframcloud.com/objects/1cf916d9-95e0-4efc-8f45-9e8fab4a8903"/>
     <allow-navigation href="https://www.wolframcloud.com/objects/c567c4a5-22ad-4849-8061-2f6ee2625fd8"/>
-    <allow-navigation href="https://www.wolframcloud.com/objects/126040a5-8842-4235-a117-5db1e67c59ed"/>    
+    <allow-navigation href="https://www.wolframcloud.com/objects/126040a5-8842-4235-a117-5db1e67c59ed"/> 
+    <!--Minimos Cuadrados-->
+    <allow-navigation href="https://www.wolframcloud.com/objects/b7e61133-b94a-4da6-bdbf-c0aa619c9350"/>   
 
     <engine name="android" spec="^6.3.0" />
     <engine name="ios" spec="^4.5.2" />

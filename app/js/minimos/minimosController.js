@@ -4,7 +4,15 @@ define(["app","js/minimos/minimosView", "js/minimos/minimosModel"], function(app
 		element: '.demo1',
 		event: 'click',
 		handler: demo1,
+	},{
+		element:'.minimos',
+		event:'click',
+		handler:minimos,
 	}];	
+
+	function minimos(){
+		app.f7.popup('.popup-minimos');
+	}
 
 	function demo1(){
 		app.f7.alert('You choose demo 1');
