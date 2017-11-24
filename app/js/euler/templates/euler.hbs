@@ -1,3 +1,54 @@
-<div>
-	<h1> <center>Euler</center> </h1>
+<div class="page-content infinite-scroll">
+
+	<div class="side_margin">
+		<div class="row">
+			<div class="tablet-5 col-5"></div>
+			<div class="tablet-95 col-95">
+				<h1> <center>Euler</center> </h1>
+
+				<p class="justify">El metodo de euler es un procedimiento de integración numerica para resolver ecuaciones diferenciales ordinarias a partir de un valor inicial dado.
+				<br/>
+				El método de Euler es un método de primer orden, lo que significa que el error local es proporcional al cuadrado del tamaño del paso, y el error global es proporcional al tamaño del paso.
+				<br/>
+				El metodo de Euler regularmente sirve como base para construir métodos más complejos
+				</p>
+				<br/>
+				<strong>Procedimiento</strong>
+				<ol>
+					<li>Consite en dividir los intervalos de <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/858fa52cee7077496456d0c8819192481bc25311"/></span> a <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/730d093aa3611ca2f95578da59b1ba3374cdf65d"/></span> en <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cecd947e6666832fcc39909b00dbde70caa9cf8c"/></span><br/>
+					<span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/892e4f9f128d5a541668ef84639de5095e899590"/></span>
+					</li>
+					<li> Posterimente se obtendra un conjunto discreto de n+1 puntos en el intervalo de <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/858fa52cee7077496456d0c8819192481bc25311"/></span> a <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/730d093aa3611ca2f95578da59b1ba3374cdf65d"/></span> y para cualquiera de estos puntos se cumple que <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5d1390749c8590497a66062bb3bf161d43666888"/></span>
+					</li>
+					<li>La condición inicial <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/970aa219e62de0030c51781fc67b19a9ef654d46"/></span>	representan el punto <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a5c26d9083ede64a5b3a58ce1fd7581afdb32a9b"/></span>por donde pasa la curva solución de la ecuación del planteamiento inicial, la cual se denotara como <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/788a43dae2b4217def5d0d057473160c0a53c041"/></span> Una vez que se obtiene el punto <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3a8f9fd0a5e90c5782e4da4a5314e6d9f28abe68"/></span> se puede evaluar la primera derivada de <span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ef7c9dc516f87ed3e17287c60f65c0743b57a8f5"/></span> en ese punto. por lo que podemos reducirlo a: <br/>	<span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/09cb564cb29d5fe9ca147dcc0fa750450958c63f"/></span> 
+					</li>
+					<li> Con la informacion obtenida de los puntos podemos trazar una aproximacion bastante precisa a la funcion</li>
+					<br/>
+					<center>
+						<img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Euler_method.svg/220px-Euler_method.svg.png"/>
+					</center>
+				</ol>
+
+				<a href="" class="button button_color metodo">EULER</a>
+			</div>
+			<div class="tablet-5 col-5"></div>
+		</div>
+	</div>
+</div>
+
+<!--Contenido fuera de page content-->
+<div class="popup popup-euler">
+    <div class="content-block">
+    	<div class="row">
+    		<div class="tablet-80 col-70"><h1>Euler</h1></div>
+    		<div class="tablet-20 com-30">
+    			<p><a href="#" class="close-popup"><h3>x</h3></a></p>
+    		</div>
+    	</div>
+    	<div class="col-40"></div>
+    	<div class="col-20">
+			<iframe class="iframe_Size iframe_modal" src="https://www.wolframcloud.com/objects/394b1111-13b3-4fab-b97b-7c4d14f6ee70"></iframe>
+		</div>
+		<div class="col-40"></div>
+    </div>
 </div>
