@@ -11,12 +11,37 @@
 				<p class="justify">
 					La inversa de una matriz A denomidad como A-1, caulculada mediante cofactores donde Adj(A)=[Cofac(A)]^T.
 					<br/>
-					
+					El problema de encontrar elementos inversos para el productor de matrices tiene como primer incomveniente que para empezar, no siempre dadas dos matrices A y B, que podemos hacer el productor A*B significa que podemos hacer el producto B*A
+					<br/>
+					Además, que dos matrices sean inversas una de la otra significa, en particular, que el productor ha de dar como resultado la matriz identidad. Si recordamos la definición, la matriz identidad es aquella cuyos elementos son nulos salvo los de la diagonal, que son 1, y, ademas esto es importante, dicha matriz es cuadrada. El hecho de que la matriz identidad sea cuadrada nos va a restringir mucho el conjunto de matrices para las que podremos hablar de inversión.
+					<br/>
+					<center><span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/16ca8157c6736104611edf7aeb9a1492801affd9" class="width100"/></span></center>
+					<br/> 
+					Vamos a notar que la primera condición han de cumplir dos matrices A y B para que sea la nueva inversa de la otra. Esto, como sabemos, significa que A*B = B*A = I, donde I denota a la matrice identidad. Las matrices serán, en principio, A de orden MxN y B de orden PxQ.
+					<br/>
+					Sin embargo, por definición del producto de matrices, se debe de cumplir que n = p para poder hacer la multiplicacion de A*B. Sabemos, ademas, que esta matriz será de orden MxQ. Pero también tenemos que poder hacer el producto de B*A, lo que significa que M=Q. Así pues, la matriz A será de orden MxN, y la matriz B sera de orden NxM.
 				</p>
+				<br/>
+				<a href="" class="button button_color metodo">INVERSA</a>
 			</div>
 			<div class="tablet-5 col-5"></div>
 		</div>
 	</div>
+</div>
 
-	
+<!--Contenido fuera de page content-->
+<div class="popup popup-inversa">
+    <div class="content-block">
+    	<div class="row">
+    		<div class="tablet-80 col-70"><h1>Inversa</h1></div>
+    		<div class="tablet-20 com-30">
+    			<p><a href="#" class="close-popup"><h3>x</h3></a></p>
+    		</div>
+    	</div>
+    	<div class="col-40"></div>
+    	<div class="col-20">
+			<iframe class="iframe_Size iframe_modal" src="https://www.wolframcloud.com/objects/abca07fe-e158-460d-9874-b62bb3b70098"></iframe>
+		</div>
+		<div class="col-40"></div>
+    </div>
 </div>

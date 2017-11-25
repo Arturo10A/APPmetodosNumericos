@@ -1,15 +1,13 @@
 define(["app","js/inversa/inversaView", "js/inversa/inversaModel"], function(app, inversaView, inversa) {
 	var bindings = [
 	{
-		element: '.demo1',
+		element: '.metodo',
 		event: 'click',
-		handler: demo1,
+		handler: metodo,
 	}];	
 
-	function demo1(){
-		app.f7.alert('You choose demo 1');
-		$('.demo1').addClass('active');
-		$('.demo2').removeClass('active')
+	function metodo(){
+		app.f7.popup('.popup-inversa');
 	}
 
 	function init(query){	
