@@ -6,7 +6,7 @@ define(['js/minimos/minimosModel','hbs!js/minimos/templates/minimos'], function(
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("Minimos Cuadrados");
+		$("#title_seccion").html("Mínimos Cuadrados");
 
 	}
 

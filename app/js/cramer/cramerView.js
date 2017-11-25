@@ -6,7 +6,7 @@ define(['js/cramer/cramerModel','hbs!js/cramer/templates/cramer'], function(cram
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("cramer");
+		$("#title_seccion").html("Cramer");
 
 	}
 

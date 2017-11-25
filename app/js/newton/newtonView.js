@@ -6,7 +6,7 @@ define(['js/newton/newtonModel','hbs!js/newton/templates/newton'], function(newt
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("newton");
+		$("#title_seccion").html("Newton");
 
 	}
 

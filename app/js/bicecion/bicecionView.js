@@ -6,7 +6,7 @@ define(['js/bicecion/bicecionModel','hbs!js/bicecion/templates/bicecion'], funct
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("bicecion");
+		$("#title_seccion").html("Bicección");
 
 	}
 

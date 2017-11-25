@@ -6,7 +6,7 @@ define(['js/inversa/inversaModel','hbs!js/inversa/templates/inversa'], function(
 		bindEvents(params.bindings);
 		var app = params.app;
 		var methods = params.methods;
-		$("#title_seccion").html("inversa");
+		$("#title_seccion").html("Inversa");
 
 	}
 
