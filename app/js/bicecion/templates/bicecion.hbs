@@ -1,38 +1,52 @@
 <div class="page-content infinite-scroll">
-		<div class="side_margin">
+	<div class="side_margin">
 
-			<div class="row">
+		<div class="row">
 
-				<div class="table-5 col-5"></div>
-				<div class="tablet-90 col-90">
+			<div class="table-5 col-5"></div>
+			<div class="tablet-90 col-90">
 
-					<center> <h1>Bisección</h1></center>
+				<center> <h1>Bisección</h1></center>
 
-					<p class="justify">El método de bisección es un algoritmo de búsqueda de raíces que trabaja dividiendo el intervalo a la mitad y seleccionando el subintervalo que tiene la raíz. Se basa en el teorema del valor intermedio (TVI), el cual establece que toda función continua f en un intervalo cerrado [a,b] toma todos los valores que se hallan entre f(a) y f(b). Esto es que todo valor entre f(a) y f(b) es la imagen de al menos un valor en el intervalo [a,b]. En caso de que f(a) y f(b) tengan signos opuestos, el valor cero sería un valor intermedio entre f(a) y f(b), por lo que con certeza existe un p en [a,b] que cumple f(p)=0. De esta forma, se asegura la existencia de al menos una solución de la ecuación f(a)=0.</p>
-					<br/>
-					<p>
-						El método consiste en lo siguiente:
-							<ul class="no_list_style">
-								<li>•Debe existir seguridad sobre la continuidad de la función f(x) en el intervalo [a,b]</li>
-								<li>•A continuación se verifica que f(a) * f(b) < 0</li>
-								<li>•Se calcula el punto medio m del intervalo [a,b] y se evalúa f(m) si ese valor es igual a cero, ya hemos encontrado la raíz buscada</li>
-								<li>•En caso de que no lo sea, verificamos si f(m) tiene signo opuesto con f(a) o con f(b)</li>
-								<li>•Se redefine el intervalo [a, b] como [a, m] ó [m, b] según se haya determinado en cuál de estos intervalos ocurre un cambio de signo</li>
-								<li>•Con este nuevo intervalo se continúa sucesivamente encerrando la solución en un intervalo cada vez más pequeño, hasta alcanzar la precisión deseada</li>
-							</ul>
-							<center>
-								<p>
-									<h4>Unas cuantas iteraciones del método de bisección aplicadas en un intervalo [a1;b1]. El punto rojo es la raíz de la función.</h4>
-									<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bisection_method.png/771px-Bisection_method.png" class="width50" />
-								</p>
-							</center>
-					</p>
-				</div>
+				<p class="justify">El método de bisección es un algoritmo de búsqueda de raíces que trabaja dividiendo el intervalo a la mitad y seleccionando el subintervalo que tiene la raíz. Se basa en el teorema del valor intermedio (TVI), el cual establece que toda función continua f en un intervalo cerrado [a,b] toma todos los valores que se hallan entre f(a) y f(b). Esto es que todo valor entre f(a) y f(b) es la imagen de al menos un valor en el intervalo [a,b]. En caso de que f(a) y f(b) tengan signos opuestos, el valor cero sería un valor intermedio entre f(a) y f(b), por lo que con certeza existe un p en [a,b] que cumple f(p)=0. De esta forma, se asegura la existencia de al menos una solución de la ecuación f(a)=0.</p>
 				<br/>
-				<div class="col-100">
+				<p>
+					El método consiste en lo siguiente:
+						<ul class="no_list_style">
+							<li>•Debe existir seguridad sobre la continuidad de la función f(x) en el intervalo [a,b]</li>
+							<li>•A continuación se verifica que f(a) * f(b) < 0</li>
+							<li>•Se calcula el punto medio m del intervalo [a,b] y se evalúa f(m) si ese valor es igual a cero, ya hemos encontrado la raíz buscada</li>
+							<li>•En caso de que no lo sea, verificamos si f(m) tiene signo opuesto con f(a) o con f(b)</li>
+							<li>•Se redefine el intervalo [a, b] como [a, m] ó [m, b] según se haya determinado en cuál de estos intervalos ocurre un cambio de signo</li>
+							<li>•Con este nuevo intervalo se continúa sucesivamente encerrando la solución en un intervalo cada vez más pequeño, hasta alcanzar la precisión deseada</li>
+						</ul>
+						<center>
+							<p>
+								<h4>Unas cuantas iteraciones del método de bisección aplicadas en un intervalo [a1;b1]. El punto rojo es la raíz de la función.</h4>
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Bisection_method.png/771px-Bisection_method.png" class="width100" />
+							</p>
+						</center>
+				</p>
 
-				</div>
+				<a href="#tab1" class="tab-link button button_color metodo">BICECCIÓN</a>
+			</div>
+			<br/>
+			<div class="col-100">
 
 			</div>
+
 		</div>
 	</div>
+</div>
+
+<div class="popup popup-bise">
+	<div class="content-block">
+		<div class="row">
+			<div class="tablet-80 col-70"><h1>Bicección</h1></div>
+				<div class="tablet-20 col-30">
+				<p><a href="#" class="close-popup"><h1>x</h1></a></p>
+			</div>
+		</div>
+		<iframe src="https://www.wolframcloud.com/objects/9f7e4c5e-9b0f-4c66-8360-befcfe3c5c45" class="iframe_modal"></iframe>
+	</div>
+</div>

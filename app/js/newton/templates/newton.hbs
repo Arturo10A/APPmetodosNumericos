@@ -1,37 +1,48 @@
 <div class="page-content infinite-scroll">
-		<div class="side_margin">
+	<div class="side_margin">
 
-			<div class="row">
+		<div class="row">
 
-				<div class="table-5 col-5"></div>
-				<div class="tablet-90 col-90">
+			<div class="table-5 col-5"></div>
+			<div class="tablet-90 col-90">
 
-					<center> <h1>Newton</h1></center>
+				<center> <h1>Newton</h1></center>
 
-					<p class="justify">El método de Newton (conocido también como el método de Newton-Raphson o el método de Newton-Fourier) es un algoritmo para encontrar aproximaciones de los ceros o raíces de una función real. También puede ser usado para encontrar el máximo o mínimo de una función, encontrando los ceros de su primera derivada.</p>
-					<br/>
-					<p>
-						Sea una función derivable, de la cual sabemos que tiene una raíz en dicho intervalo y queremos encontrar una aproximación que nos satisfaga:
-							<ul class="no_list_style">
-								<li>•Elegimos x0 en el eje de las x, asumiendo que está cerca de la solución de f(x)=0(raíz buscada). </li>
-								<li>•Calculamos la ecuación punto pendiente de la recta tangente a la función en (x0,f(x0)), a saber:</li>
-								<p><img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_10.gif" class="width10" /> (1)</p>
-								<li>•Esta recta debe intersecar al eje de las x, en un punto x1, más cercano a la raíz buscada.</li>
-								<li>•Así, el punto (x1,0) satisface la ecuación (1) y sustituyendo, queda:</li>
-								<p><img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_13.gif" class="width10" /> (2)</p>
-								<li>•Si f'(x0)!=0, entonces, despejando en (2), queda que:<img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_15.gif" class="width10" /></li>
-								<li>•Repetimos el mismo razonamiento seguido para x0, pero ahora comenzando con x1, en cuyo caso obtenemos<img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_16.gif" class="width10" />, más cerca de la raíz buscada que x1.</li>
-								<li>•Iterando cada vez con el número obtenido, se construye una secuencia: x0,x1,x2,...,xn,... de números cada vez más próximos a la raíz, tales que:</li>
-								<img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_18.gif" class="width10" />
-								<li>•La aproximación entonces será mejor, entre más términos querramos o podamos calcular.</li>
-							</ul>
-							<center>
-				</div>
+				<p class="justify">El método de Newton (conocido también como el método de Newton-Raphson o el método de Newton-Fourier) es un algoritmo para encontrar aproximaciones de los ceros o raíces de una función real. También puede ser usado para encontrar el máximo o mínimo de una función, encontrando los ceros de su primera derivada.</p>
 				<br/>
-				<div class="col-100">
+				<p>
+					Sea una función derivable, de la cual sabemos que tiene una raíz en dicho intervalo y queremos encontrar una aproximación que nos satisfaga:
+						<ul class="no_list_style">
+							<li>•Elegimos x0 en el eje de las x, asumiendo que está cerca de la solución de f(x)=0(raíz buscada). </li>
+							<li>•Calculamos la ecuación punto pendiente de la recta tangente a la función en (x0,f(x0)), a saber:</li>
+							<p><img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_10.gif" class="width10" /> (1)</p>
+							<li>•Esta recta debe intersecar al eje de las x, en un punto x1, más cercano a la raíz buscada.</li>
+							<li>•Así, el punto (x1,0) satisface la ecuación (1) y sustituyendo, queda:</li>
+							<p><img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_13.gif" class="width10" /> (2)</p>
+							<li>•Si f'(x0)!=0, entonces, despejando en (2), queda que:<img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_15.gif" class="width10" /></li>
+							<li>•Repetimos el mismo razonamiento seguido para x0, pero ahora comenzando con x1, en cuyo caso obtenemos<img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_16.gif" class="width10" />, más cerca de la raíz buscada que x1.</li>
+							<li>•Iterando cada vez con el número obtenido, se construye una secuencia: x0,x1,x2,...,xn,... de números cada vez más próximos a la raíz, tales que:</li>
+							<img src="http://www.objetos.unam.mx/matematicas/matema/Daplica/Images/aplica08_18.gif" class="width10" />
+							<li>•La aproximación entonces será mejor, entre más términos querramos o podamos calcular.</li>
+						</ul>
+						<center></p>
+				<a href="#tab1" class="tab-link button button_color metodo">NEWTON</a>
+			</div>
+			<br/>
+			
+		</div>
+		<div class="col-5"></div>
+	</div>
+</div>
 
-				</div>
-
+<div class="popup popup-newton">
+	<div class="content-block">
+		<div class="row">
+			<div class="tablet-80 col-70"><h1>Newton</h1></div>
+				<div class="tablet-20 col-30">
+				<p><a href="#" class="close-popup"><h1>x</h1></a></p>
 			</div>
 		</div>
+		<iframe src="https://www.wolframcloud.com/objects/a1902b06-0fc7-4628-bb71-a7b62f8b430b" class="iframe_modal"></iframe>
 	</div>
+</div>

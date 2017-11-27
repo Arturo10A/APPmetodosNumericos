@@ -1,13 +1,13 @@
 define(["app","js/cramer/cramerView", "js/cramer/cramerModel"], function(app, cramerView, cramer) {
 	var bindings = [
 	{
-		element: '.demo1',
+		element: '.metodo',
 		event: 'click',
-		handler: demo1,
+		handler: metodo,
 	}];	
 
-	function demo1(){
-		app.f7.alert('You choose demo 1');
+	function metodo(){
+		app.f7.popup('.popup-cramer');
 		$('.demo1').addClass('active');
 		$('.demo2').removeClass('active')
 	}
